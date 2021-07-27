@@ -218,7 +218,7 @@ const checkSupply = denom => {
     return acc
   }, 0)
   const diff = is - was
-  console.log(denom + " was: " + was + " after: " + is + " diff: " + diff + denom)
+  //console.log(denom + " was: " + was + " after: " + is + " diff: " + diff + denom)
   
   if (diff < 0) {
     // adjust by increasing community pool and total supply
