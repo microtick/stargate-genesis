@@ -1,6 +1,8 @@
+# Microtick Stargate Upgrade
+
 If you've been monitoring this channel, you're aware of the fact that Microtick will be upgrading to Stargate commencing this Thursday https://github.com/microtick/governance/blob/master/proposal7.md.  Here's what to know / expect.
 
-Upgrade Notes:
+## Upgrade Notes:
 
 1.  Thursday, July 29th at 3 pm UTC.  microtickzone-a2 chain halt.  Validators will shut down their nodes.
 
@@ -14,13 +16,20 @@ Upgrade Notes:
 
 5.  The new genesis time (August 2nd at 3 pm UTC) and chain ID (microtick-1) will be added by the conversion script.
 
-Action Items:
+## Action Items:
 
 1.  Validators SHOULD shut down their nodes at or after the microtickzone-a2 halt time of July 29, 2021 3pm UTC.
 
 2.  Validators that want to validate on the IBC-enabled chain MUST execute the conversion script to obtain a new genesis file.  New validators who have TICK balances MAY join as genesis validators during this step (see action item 3).
 
-3.  All community members will have a 24 hour window from July 29, 3pm UTC through July 30, 3 pm UTC to check their account balances in the new genesis.json and report any inaccuracies.
+```
+$ mtd export --for-zero-height | jq . > state.json
+$ node convert state.json
+```
+
+This will generate the genesis.json automatically.
+
+3.  All community members will have a 24 hour window from July 29, 3pm UTC through July 30, 3 pm UTC to check their account balances in the new genesis.json and report any inaccuracies. Note that all delegations are withdrawn by the conversion script and become part of the account balance.
 
 4.  Validators who want to be on the genesis block MUST sign a new gentx and submit it as a pull request to https://github.com/microtick/stargate-genesis before July 31, 2021 at 3pm UTC.  This gives a 24 hour window for the community to come to consensus on the new genesis.json and handle any account balance disputes, then 24 hours for validators to sign the gentx PR's.
 
