@@ -18,7 +18,11 @@ If you've been monitoring this channel, you're aware of the fact that Microtick 
 
 ## Action Items:
 
-1.  Validators MUST shut down their nodes within 100 blocks of the microtickzone-a2 halt time of July 29, 2021 3pm UTC.
+1.  Validators MUST shut down their nodes within 100 blocks of the microtickzone-a2 halt time of July 29, 2021 3pm UTC. Recommend setting in app.toml:
+
+```
+halt-time = 1627570800
+```
 
 2.  Validators that want to validate on the IBC-enabled chain MUST execute the conversion script to obtain a new genesis file.  New validators who have TICK balances MAY join as genesis validators during this step (see action item 3).
 
