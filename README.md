@@ -25,6 +25,8 @@ If you've been monitoring this channel, you're aware of the fact that Microtick 
 ```
 $ mtd export --height <last block height before cutoff> --for-zero-height | jq . > state.json
 $ node convert state.json
+$ jq -S -c -M '' genesis.json | shasum -a 256
+<hash value checksum printed here>
 ```
 
 This will generate the genesis.json automatically.
