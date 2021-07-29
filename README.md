@@ -54,3 +54,37 @@ This will generate the genesis.json automatically.
 4.  Validators who want to be on the genesis block MUST sign a new gentx and submit it as a pull request to https://github.com/microtick/stargate-genesis before July 31, 2021 at 3pm UTC.  This gives a 24 hour window for the community to come to consensus on the new genesis.json and handle any account balance disputes, then 24 hours for validators to sign the gentx PR's.
 
 5.  Validators who submitted gentx's to be included in the chain start MUST update their genesis.json to the final one, which will be posted very soon after August 1, 2021 at 3 pm UTC.  Upon updating, validators SHOULD start their nodes.  There will be a 24 hour window for this process to complete.
+
+6. Steps to genenerate the GenTx with the new version:
+
+  * a) Backup the old wallet's keys and write in a temporal file, called `validator.txt` in example:  
+  ```
+  mtm keys export yourwallet
+  ```
+  * b) backup  and move the current .microtick folder to other
+  ``` 
+  mv ~/.microtick ~/.microtick_old
+  ```
+  * c) Init the new folder
+  ```
+  mtm init Moniker --chain-id microtick-1 
+  ```
+  * d) move the genesis.json to the config folder
+  ```
+  mv ~/stargate-genesis/genesis.json  ~/.microtick/config/
+  ```
+  * e) Import your delegator private key. First you must fill in the validator.txt file in example
+  ```
+  mtm keys import  validator stargate-genesis/validator.txt 
+  ```
+  * f) make the gentx. CHANGE BY YOUR OWN PARAMETERS!!
+  ```
+  mtm gentx WALLET_NAME 20000000000utick --commission-rate 1.0  --commission-max-rate 1.0 --commission-max-change-rate 1.0 --min-self-delegation 1  --website "http://YOUR_WEB"  --security-contact info@YOURDOMAIN --identity YOUR_IDEN --chain-id microtick-1
+  ```
+  * g) send the gentx file (submit a PR to the Stargate `gentx` folder)
+  
+  * Simply, you can cat the output file from (f) step and upload the content and put the name of the gentx.json file, in example: 
+  https://raw.githubusercontent.com/microtick/stargate-genesis/master/gentx/gentx-885cc6b8bcc36d9fd0489f4bfa2d845c9b60f354.json
+
+  * You can check this instructions at:
+  https://discord.com/channels/739872992669991003/739878713180553257/870334209514950686
