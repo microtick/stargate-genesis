@@ -41,7 +41,7 @@ halt-time = 1627570800
 $ git clone https://github.com/microtick/stargate-genesis
 $ cd stargate-genesis
 $ yarn install
-$ mtd export --height <last block height before cutoff> --for-zero-height | jq . > state.json
+$ mtd export --height 1812400 --for-zero-height | jq . > state.json
 $ node convert state.json
 $ jq -S -c -M '' genesis.json | shasum -a 256
 <hash value checksum printed here>
