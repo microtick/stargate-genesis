@@ -44,8 +44,7 @@ $ yarn install
 $ mtd export --height 1812400 --for-zero-height | jq . > state.json
 $ node convert state.json
 $ jq -S -c -M '' genesis.json | shasum -a 256
-<hash value checksum printed here>
-```
+1560e9fc96e59a5f70082ef4df768059d2f5d7cac0c78532abc7807e4f16290d```
 
 This will generate the genesis.json automatically.
 
