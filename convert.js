@@ -231,4 +231,8 @@ checkSupply("utick")
 
 genesis.app_state.bank.supply = state.app_state.bank.supply
 
+genesis.app_state.auth.accounts = genesis.app_state.auth.accounts.sort((el1, el2) => {
+  return el1.address.localeCompare(el2.address)
+})
+
 fs.writeFileSync("genesis.json", JSON.stringify(genesis, null, 2))
