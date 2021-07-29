@@ -59,7 +59,7 @@ This will generate the genesis.json automatically.
 
   * a) Backup the old wallet's keys and write in a temporal file, called `validator.txt` in example:  
   ```
-  mtm keys export yourwallet
+  mtcli keys export yourwallet
   ```
   * b) backup  and move the current .microtick folder to other
   ``` 
