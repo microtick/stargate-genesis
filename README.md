@@ -2,6 +2,14 @@
 
 If you've been monitoring this channel, you're aware of the fact that Microtick will be upgrading to Stargate commencing this Thursday https://github.com/microtick/governance/blob/master/proposal7.md.  Here's what to know / expect.
 
+## Requirements
+
+You must have the mtm 2.0.0 binary in your path, available from here:
+Source: https://github.com/microtick/mtzone (main branch, tag mtm-v2.0.0)
+Binary: https://microtick.com/releases/mainnet
+
+To build from source, ensure you have the unzip utility installed on your system.
+
 ## Upgrade Notes:
 
 1.  Thursday, July 29th at 3 pm UTC.  microtickzone-a2 chain halt.  Validators will shut down their nodes.
@@ -27,6 +35,9 @@ halt-time = 1627570800
 2.  Validators that want to validate on the IBC-enabled chain MUST execute the conversion script to obtain a new genesis file.  New validators who have TICK balances MAY join as genesis validators during this step (see action item 3).
 
 ```
+$ git clone https://github.com/microtick/stargate-genesis
+$ cd stargate-genesis
+$ yarn install
 $ mtd export --height <last block height before cutoff> --for-zero-height | jq . > state.json
 $ node convert state.json
 $ jq -S -c -M '' genesis.json | shasum -a 256
