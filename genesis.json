@@ -1,0 +1,2688 @@
+{
+  "genesis_time": "2021-08-02T15:00:00Z",
+  "chain_id": "microtick-1",
+  "initial_height": "1",
+  "consensus_params": {
+    "block": {
+      "max_bytes": "22020096",
+      "max_gas": "-1",
+      "time_iota_ms": "1000"
+    },
+    "evidence": {
+      "max_age_num_blocks": "100000",
+      "max_age_duration": "172800000000000",
+      "max_bytes": "1048576"
+    },
+    "validator": {
+      "pub_key_types": [
+        "ed25519"
+      ]
+    },
+    "version": {}
+  },
+  "app_hash": "",
+  "app_state": {
+    "auth": {
+      "params": {
+        "max_memo_characters": "256",
+        "tx_sig_limit": "7",
+        "tx_size_cost_per_byte": "10",
+        "sig_verify_cost_ed25519": "590",
+        "sig_verify_cost_secp256k1": "1000"
+      },
+      "accounts": [
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro100e6qly69cy32pemlpm87j6k0qp4rakwegndnw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro10mx05zr4nkptlkg2p9u07a2nlg55hta29zd45c",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro10nhme0a408fnuslsh0c8w6y0dgqcqpl5ceg0v2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro10nrwnltd9fyv5r3m8e8x568np3kd60q9harqgf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro10rz5axuhvwm4jz7p6j7upaqezdyf2n5w0xtfcr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro10sk56l36x25afpnk0tynn2a68qcmn7uv7gcdnv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro10y4769smjgsre7d7fglm6s32za4jnpffzejur2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro12fh9vfq524txclw8u0ecp6q29t3hesdx472pua",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1367nle2jgtwyctc2unqaz7dac42terzr92vemj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro13gjhk3pmmusvdrsgqwdc74fcafdmvex0dksn7x",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro13hp4syvngmpaa4l06nn3dgf3vpg08dytfa6nal",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro13salyplesjgjesd9sj04daew6768flm95arsza",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro13vhfpt8hxvld2x7qfu8kft88zsn5e6rt4fkx6x",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro140dw83yx8trpwpm04e67tjwulpjustgx9js0gl",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro140yj6y95p4zj3604rtcvjqjs0slvyu0cts2x2n",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro148wnknz40m0mxwu99j77f88akuezq3cq27a5fh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro14g50yy9ahn7yqfk4d8cn40y8uplx4clhkkmg3p",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro14ku2u55ktxm885c60rd3a9n5tprpp7et7836q4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro14nejmmv5ymsnrcxheu8pnyryefj509ep2zrvwf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro14qka30hsz3eq8dat40uu9d4642eqztxpyepa4d",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro14ur4ls0naa9qawk0pv2x9943mksjl0m7kwx6kp",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro14vq6ph0sc6ugnrmtngm0zay5tuphr43qhtpwah",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro14wylsscldldfjfgt6qnud0tvstlxkkeutacstu",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro15455zn5fp5ajwdqq8vqc0l3tj0qehvkk2q05pq",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro15dtmqj60mnflf7j9cm8dhfuqysjnnzz76u96k6",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro15k3f4846y8w4vzq9tjxv24cj7sqq6uwxg2j9hm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro15urq2dtp9qce4fyc85m6upwm9xul3049wrrv6e",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro15xslwqdxl4z9ts7zvmfnuc379uhn5w2zdhw0x6",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro16awgdfgwj2e0a7x92vcdsjqhh8ceu6wfrlhfnc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro16cj080q8z32j8vjsrltmg5knysnckq8yzx439g",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro16jgzynt3catzf67l2xyek3fkxgjdqqm869sp8a",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro16x03wcp37kx5e8ehckjxvwcgk9j0cqnhpy4xtz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro16zsjxyqnjuvktcvq89f0jc0fs3ghsxlg5gftx8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro173fgxal7ncashyz3vvcnghmszd2jhynsjty9wf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro179egxffpytfglk25r764ejx5x7727qxgxayu82",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro17lk0zagpl8uhn53pqv5whgpfhd3m6dkf9vu8a2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro185yqyn3weqhfjdhd23f7k9j0pnaneycqfz5cs3",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro18gyy5g5ks7jl0yctpt7aqsz7fs7qjysss5hkyp",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro192pmvma3vfpw907j07wezdy06t2nc9ve8pr4rw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1980k5jmex6dmlxq0p4568m8ccela9uuyg4qy99",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro198c8z5m8hqtv4vunn3dj222et8la7ll8gxda6s",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro19e7julkmhks770hyv9s9zfk8le2pwu8y2q0sdq",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro19ht5qlq200h23d8syd659fsedmmv3w8ehcxcel",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro19kvkwm7ufhs7ekxct8nxvc2axzjrvl9kgyy6fj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ahnfdmvsp5zqnzjh62eaf9a7d5eukcs3ytjf8s",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1arq4nx59qhyspcyfr3kvfpllj86a47z5pkl3zh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1c0zsw6c2nmzl95e7gz7kess7echy66evu6w6jn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1cf3365zn4809hddfp5jghx8s805fnyrjaak762",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1cp6k78z8c2467gts94ctkhe9ej2pv3xf63kxmf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1cxzcu92mv92taejqqr66cxkh359swnzsjvfa4l",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1dtknkwg2wknp99v5w6jhsa8s6equ838hs4ypm0",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1dxfl0ws8mdhlzypc46tkh6np6k9nwttk5tmksz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1dyfdydkn843fclxd7clyxzvew5kfj4kxyg8umx",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1env95wrv2mmesvavgut68s5zx8xv98m8ng3cc2",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1epmlgyve8nu6ag4xldnegj3gaqpa6tw7heqr3v",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1etrnq0eh6vux6pswdjf0pwjxne77uxs4ramjv4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1f2m3ene0jym7mhf64a9pex4yvvjwjdkqwukn89",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1fm3h0zxdyrudsuyesu7tfcmjv4l20w7pnus6rf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ghekpz7dzf6lcg2ujct7567h2ne0p7yx93l5td",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1gqkr7y2khr8xqrh2e7s359zj9t3vudsxgamkrv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1gwhmkpezau7xtllezrupq8k279exuqtytx9ptd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1gz2hhsmdarfrjsv4a39hrqt3phece5spxrevlf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1h6z4mhuzq2lljdgtsgmfnwryxp6whgwp9k62xy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1hzyqt9rnxnhes7m65t6m8wnjz7us7sqzkgp5q8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1j557mplgram34qwh665x64cfw67sa5qrs50jsg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1jlgleh4r8xlx7ryhnz2e8d9726ks423z5juga7",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ju2v6yu2fne5ujrnjrgdj06nlv0fnvgesxflkh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1k096qs0p8f7krajhhnk0zcz2s78u6r6hnujvkv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1k260t0jh0x6j0tn6q0ssnm9pe6l3n8npr99xre",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ka94yj6fwhufuh8lnu4ttd3lye2xtx0l40pnwn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1kejfas76hmy7xehtj92w9h5kstgemvpg4ynywr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1kh4c9m6ccr80d553mardk05htka2ld5d2xrlst",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ktznmxdjuf4jy3u4vnwx5n7mgg4exlkl5x0h3a",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1laxxv255mlcj3n94j8alu5p9snfe3p7shmjajc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1lwx7dpmly97cr8qknvccgjuuersu9rressxgex",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1maya9lntfaqhgt5x52slaa2j03amqxctpgr7fa",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1mctr6fd6tr8nd8wcxy928qpe6l5v6g9vpywjxs",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1md2qat4zy6uy0r7y5y9y84h8zvu5tymyzp5zm6",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1mn8r3x4g2nmwmvsqqh3tsnzxp54c7qwrlpwyjd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1nqynvt03xzkm2570av9evq0wayq5e9acjhh3qe",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1nvkrcfxezvst80clcqsyg2hl0x275e6hj2q8lv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1p3grax7k2katdllwljy0k0whrzmj8p7r48gj5t",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1pcwrpym9jjwmxht00w6c9a5r3zsqaxz5mnqj8k",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1pjtxlrflsyqtwyqkay3u5rz3flhchnedxkcjgj",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1pnpzqwcy5gwqvrjhanvqd2esqdd5rwve3e7cpt",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1qttzn70hqdz9kl4we0lf6u6udywcfuwgjvxu34",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ryjq6thd2w2060aj97mdwegvqx8t8rrum3vuwv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1stqkafudwykj2vvy6nx7vnev27pd0a830vx6sy",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1t5d79xekdh2e2r7m5krewje5rkpvl290egad6q",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1t5rt9t2ltvda3nj05trwfy0xzeyjsuy5ujmnju",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1tdma5rfrwdzpqhzzys8drmxvw25htpa5d7x2mr",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1thrytn5fyw40v44lruhlm455cnj5x0lt93d02x",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1tjyjrkswuatfjg56e8vl8npp93h2kj9p96shqg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1try3a8k6f0hc6dlxe0hpuq4w5jddx3s9l00ylm",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1u09me8dpc8khaxtdcd5gm0260qfcak66pk70xw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1u30zrncst2ywwm06zhrcwkk42p4kfq3xqrxwfw",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1u8dh5srz6zhg4jv2wkr3uxf8wnkuzf7nlce7gc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ua70y594ptvlgde5p9pds284pz0taunzsuvqgz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ueu2mgmcqf2htwpdg7y49f82v25u2htrxymgsn",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1upyjzuc65tr3gumy65x3py064gyxa43l5ml760",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1ut2mlx5vs7z46594mfvjzfxkfhha0agwrjm2nx",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1uwp86hhwwglgq0k506w8pdquxjs4j40z64h00s",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1v0rcnkwtszz0ph6mjd355h89qqksvchlet5nfg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1vekj7vj6ejdf94shkc703c2rl3mkh86j3dfkl8",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1vn2ufd6uh4yd7h6lm55hcezgcjv7ha2xty4hmu",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1vq655x0ca9znl6kzza6u7y697yuym4ch8w8zfv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1vs6qzfldgmjc7hhemm26lyawu2n5gpwmuwu023",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1w4x25tjgvfm50y6ucczya8sjqgwkxa4ww2aesh",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1wckd8msrkq5zqdjf2xz9ers6a4yuhjlxl2z5yc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1wfl7ehjyg4ezdxvg7fqy5r0r5stn4sqa95vtuc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1wtjwpy79c4qet6ucv5y5sgmr55s7m8423r87uf",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1wtv0kp6ydt03edd8kyr5arr4f3yc52vpxsr5ym",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1xs2859dsxhlpyfzqdd7pnakl23qn0mgck3rprc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1xy834h2q4xgx0nm0je699w3hjvua34ddvsne9j",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1yc9864lh3gf6sut74pt6v6fhngunda5s2xessz",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1yjt0vmwn6cj58d4sd9f4cqywfxlz4n7hlus8nv",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1yk826lh8uv9emkprsge864j0l297qp7hruw2sg",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1yn79us5tg4fu3amtfq99ppda39yxqyzkhc7jpd",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1yqmw2602sh9wchzvdzyq93rp07lvpzyrwuzh20",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1yx2w6tq7pdpef4un0swc8pyw6zl0urv5agamp4",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1z7crvuuks7yk33qwx4nv68nzhwznkmt9ehtdlc",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        },
+        {
+          "@type": "/cosmos.auth.v1beta1.BaseAccount",
+          "address": "micro1zszf8stwsz89fcguk77cer3xe00u5wtne9dy2x",
+          "pub_key": null,
+          "account_number": "0",
+          "sequence": "0"
+        }
+      ]
+    },
+    "bank": {
+      "params": {
+        "send_enabled": [],
+        "default_send_enabled": true
+      },
+      "balances": [
+        {
+          "address": "micro1qttzn70hqdz9kl4we0lf6u6udywcfuwgjvxu34",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1909401526"
+            },
+            {
+              "denom": "utick",
+              "amount": "23005112376"
+            }
+          ]
+        },
+        {
+          "address": "micro1p3grax7k2katdllwljy0k0whrzmj8p7r48gj5t",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "316210000"
+            }
+          ]
+        },
+        {
+          "address": "micro1pjtxlrflsyqtwyqkay3u5rz3flhchnedxkcjgj",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2703299240"
+            },
+            {
+              "denom": "utick",
+              "amount": "115799292460"
+            }
+          ]
+        },
+        {
+          "address": "micro1pnpzqwcy5gwqvrjhanvqd2esqdd5rwve3e7cpt",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2465784"
+            },
+            {
+              "denom": "utick",
+              "amount": "5408600549"
+            }
+          ]
+        },
+        {
+          "address": "micro1pcwrpym9jjwmxht00w6c9a5r3zsqaxz5mnqj8k",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1872846808"
+            },
+            {
+              "denom": "utick",
+              "amount": "21550539934"
+            }
+          ]
+        },
+        {
+          "address": "micro1zszf8stwsz89fcguk77cer3xe00u5wtne9dy2x",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "190353653"
+            },
+            {
+              "denom": "utick",
+              "amount": "35000"
+            }
+          ]
+        },
+        {
+          "address": "micro1z7crvuuks7yk33qwx4nv68nzhwznkmt9ehtdlc",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "18776454"
+            },
+            {
+              "denom": "utick",
+              "amount": "27636188"
+            }
+          ]
+        },
+        {
+          "address": "micro1ryjq6thd2w2060aj97mdwegvqx8t8rrum3vuwv",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "58550695"
+            },
+            {
+              "denom": "utick",
+              "amount": "61148356"
+            }
+          ]
+        },
+        {
+          "address": "micro1yqmw2602sh9wchzvdzyq93rp07lvpzyrwuzh20",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1yx2w6tq7pdpef4un0swc8pyw6zl0urv5agamp4",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "104868447"
+            },
+            {
+              "denom": "utick",
+              "amount": "5404013400"
+            }
+          ]
+        },
+        {
+          "address": "micro1yjt0vmwn6cj58d4sd9f4cqywfxlz4n7hlus8nv",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2047680"
+            },
+            {
+              "denom": "utick",
+              "amount": "22364187198"
+            }
+          ]
+        },
+        {
+          "address": "micro1yn79us5tg4fu3amtfq99ppda39yxqyzkhc7jpd",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "40886"
+            },
+            {
+              "denom": "utick",
+              "amount": "281000"
+            }
+          ]
+        },
+        {
+          "address": "micro1yk826lh8uv9emkprsge864j0l297qp7hruw2sg",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "592890000"
+            }
+          ]
+        },
+        {
+          "address": "micro1yc9864lh3gf6sut74pt6v6fhngunda5s2xessz",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2255744"
+            },
+            {
+              "denom": "utick",
+              "amount": "13721965"
+            }
+          ]
+        },
+        {
+          "address": "micro1980k5jmex6dmlxq0p4568m8ccela9uuyg4qy99",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1253382500"
+            },
+            {
+              "denom": "utick",
+              "amount": "6647500"
+            }
+          ]
+        },
+        {
+          "address": "micro198c8z5m8hqtv4vunn3dj222et8la7ll8gxda6s",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "499945863"
+            },
+            {
+              "denom": "utick",
+              "amount": "25000"
+            }
+          ]
+        },
+        {
+          "address": "micro192pmvma3vfpw907j07wezdy06t2nc9ve8pr4rw",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "130811505"
+            },
+            {
+              "denom": "utick",
+              "amount": "23029756451"
+            }
+          ]
+        },
+        {
+          "address": "micro19kvkwm7ufhs7ekxct8nxvc2axzjrvl9kgyy6fj",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "120228389"
+            },
+            {
+              "denom": "utick",
+              "amount": "3864467948"
+            }
+          ]
+        },
+        {
+          "address": "micro19ht5qlq200h23d8syd659fsedmmv3w8ehcxcel",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro19e7julkmhks770hyv9s9zfk8le2pwu8y2q0sdq",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "344557888"
+            },
+            {
+              "denom": "utick",
+              "amount": "3865450664"
+            }
+          ]
+        },
+        {
+          "address": "micro1xy834h2q4xgx0nm0je699w3hjvua34ddvsne9j",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "39520000"
+            }
+          ]
+        },
+        {
+          "address": "micro1xs2859dsxhlpyfzqdd7pnakl23qn0mgck3rprc",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1251663750"
+            },
+            {
+              "denom": "utick",
+              "amount": "6602500"
+            }
+          ]
+        },
+        {
+          "address": "micro18gyy5g5ks7jl0yctpt7aqsz7fs7qjysss5hkyp",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1504510955"
+            },
+            {
+              "denom": "utick",
+              "amount": "23038812905"
+            }
+          ]
+        },
+        {
+          "address": "micro185yqyn3weqhfjdhd23f7k9j0pnaneycqfz5cs3",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "197630000"
+            }
+          ]
+        },
+        {
+          "address": "micro1gqkr7y2khr8xqrh2e7s359zj9t3vudsxgamkrv",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1gz2hhsmdarfrjsv4a39hrqt3phece5spxrevlf",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "9998950"
+            },
+            {
+              "denom": "utick",
+              "amount": "1050"
+            }
+          ]
+        },
+        {
+          "address": "micro1gwhmkpezau7xtllezrupq8k279exuqtytx9ptd",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1016714867"
+            },
+            {
+              "denom": "utick",
+              "amount": "21956089681"
+            }
+          ]
+        },
+        {
+          "address": "micro1ghekpz7dzf6lcg2ujct7567h2ne0p7yx93l5td",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "390098887"
+            },
+            {
+              "denom": "utick",
+              "amount": "14497925575"
+            }
+          ]
+        },
+        {
+          "address": "micro1f2m3ene0jym7mhf64a9pex4yvvjwjdkqwukn89",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1fm3h0zxdyrudsuyesu7tfcmjv4l20w7pnus6rf",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "301302627"
+            },
+            {
+              "denom": "utick",
+              "amount": "5637116969"
+            }
+          ]
+        },
+        {
+          "address": "micro12fh9vfq524txclw8u0ecp6q29t3hesdx472pua",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1270173"
+            },
+            {
+              "denom": "utick",
+              "amount": "752773089"
+            }
+          ]
+        },
+        {
+          "address": "micro1try3a8k6f0hc6dlxe0hpuq4w5jddx3s9l00ylm",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "37036581"
+            },
+            {
+              "denom": "utick",
+              "amount": "12788645"
+            }
+          ]
+        },
+        {
+          "address": "micro1tdma5rfrwdzpqhzzys8drmxvw25htpa5d7x2mr",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "267533776"
+            },
+            {
+              "denom": "utick",
+              "amount": "5602073359"
+            }
+          ]
+        },
+        {
+          "address": "micro1tjyjrkswuatfjg56e8vl8npp93h2kj9p96shqg",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "3418"
+            },
+            {
+              "denom": "utick",
+              "amount": "3008927"
+            }
+          ]
+        },
+        {
+          "address": "micro1t5rt9t2ltvda3nj05trwfy0xzeyjsuy5ujmnju",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "180000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1t5d79xekdh2e2r7m5krewje5rkpvl290egad6q",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "575515725"
+            },
+            {
+              "denom": "utick",
+              "amount": "7205000"
+            }
+          ]
+        },
+        {
+          "address": "micro1thrytn5fyw40v44lruhlm455cnj5x0lt93d02x",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "434780000"
+            }
+          ]
+        },
+        {
+          "address": "micro1vq655x0ca9znl6kzza6u7y697yuym4ch8w8zfv",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "76"
+            },
+            {
+              "denom": "utick",
+              "amount": "999254"
+            }
+          ]
+        },
+        {
+          "address": "micro1v0rcnkwtszz0ph6mjd355h89qqksvchlet5nfg",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "276483"
+            },
+            {
+              "denom": "utick",
+              "amount": "4436532"
+            }
+          ]
+        },
+        {
+          "address": "micro1vs6qzfldgmjc7hhemm26lyawu2n5gpwmuwu023",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "4943562"
+            },
+            {
+              "denom": "utick",
+              "amount": "38309269577"
+            }
+          ]
+        },
+        {
+          "address": "micro1vn2ufd6uh4yd7h6lm55hcezgcjv7ha2xty4hmu",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "655424385"
+            },
+            {
+              "denom": "utick",
+              "amount": "11152528652"
+            }
+          ]
+        },
+        {
+          "address": "micro1vekj7vj6ejdf94shkc703c2rl3mkh86j3dfkl8",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "3500000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1dyfdydkn843fclxd7clyxzvew5kfj4kxyg8umx",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2065902953"
+            },
+            {
+              "denom": "utick",
+              "amount": "23199507924"
+            }
+          ]
+        },
+        {
+          "address": "micro1dxfl0ws8mdhlzypc46tkh6np6k9nwttk5tmksz",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2010953"
+            },
+            {
+              "denom": "utick",
+              "amount": "14340499"
+            }
+          ]
+        },
+        {
+          "address": "micro1dtknkwg2wknp99v5w6jhsa8s6equ838hs4ypm0",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "711460000"
+            }
+          ]
+        },
+        {
+          "address": "micro1wfl7ehjyg4ezdxvg7fqy5r0r5stn4sqa95vtuc",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "3002929"
+            },
+            {
+              "denom": "utick",
+              "amount": "1063033789"
+            }
+          ]
+        },
+        {
+          "address": "micro1wtv0kp6ydt03edd8kyr5arr4f3yc52vpxsr5ym",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1wtjwpy79c4qet6ucv5y5sgmr55s7m8423r87uf",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1642990833"
+            },
+            {
+              "denom": "utick",
+              "amount": "22933376578"
+            }
+          ]
+        },
+        {
+          "address": "micro1w4x25tjgvfm50y6ucczya8sjqgwkxa4ww2aesh",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "246693714"
+            },
+            {
+              "denom": "utick",
+              "amount": "5569924215"
+            }
+          ]
+        },
+        {
+          "address": "micro1wckd8msrkq5zqdjf2xz9ers6a4yuhjlxl2z5yc",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "22979416"
+            },
+            {
+              "denom": "utick",
+              "amount": "5321082555"
+            }
+          ]
+        },
+        {
+          "address": "micro10rz5axuhvwm4jz7p6j7upaqezdyf2n5w0xtfcr",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro10y4769smjgsre7d7fglm6s32za4jnpffzejur2",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "474310000"
+            }
+          ]
+        },
+        {
+          "address": "micro100e6qly69cy32pemlpm87j6k0qp4rakwegndnw",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "352665279"
+            },
+            {
+              "denom": "utick",
+              "amount": "23212245254"
+            }
+          ]
+        },
+        {
+          "address": "micro10sk56l36x25afpnk0tynn2a68qcmn7uv7gcdnv",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "632410000"
+            }
+          ]
+        },
+        {
+          "address": "micro10nrwnltd9fyv5r3m8e8x568np3kd60q9harqgf",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro10nhme0a408fnuslsh0c8w6y0dgqcqpl5ceg0v2",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "79040000"
+            }
+          ]
+        },
+        {
+          "address": "micro10mx05zr4nkptlkg2p9u07a2nlg55hta29zd45c",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "325987285"
+            },
+            {
+              "denom": "utick",
+              "amount": "3842793946"
+            }
+          ]
+        },
+        {
+          "address": "micro1stqkafudwykj2vvy6nx7vnev27pd0a830vx6sy",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "2000000000"
+            }
+          ]
+        },
+        {
+          "address": "micro13gjhk3pmmusvdrsgqwdc74fcafdmvex0dksn7x",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "210552"
+            },
+            {
+              "denom": "utick",
+              "amount": "41000"
+            }
+          ]
+        },
+        {
+          "address": "micro13vhfpt8hxvld2x7qfu8kft88zsn5e6rt4fkx6x",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "151094770"
+            },
+            {
+              "denom": "utick",
+              "amount": "5188985594"
+            }
+          ]
+        },
+        {
+          "address": "micro13salyplesjgjesd9sj04daew6768flm95arsza",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1890017177"
+            },
+            {
+              "denom": "utick",
+              "amount": "22992069239"
+            }
+          ]
+        },
+        {
+          "address": "micro13hp4syvngmpaa4l06nn3dgf3vpg08dytfa6nal",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "237150000"
+            }
+          ]
+        },
+        {
+          "address": "micro1367nle2jgtwyctc2unqaz7dac42terzr92vemj",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "800110000"
+            }
+          ]
+        },
+        {
+          "address": "micro1j557mplgram34qwh665x64cfw67sa5qrs50jsg",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "332788087"
+            },
+            {
+              "denom": "utick",
+              "amount": "242062500"
+            }
+          ]
+        },
+        {
+          "address": "micro1ju2v6yu2fne5ujrnjrgdj06nlv0fnvgesxflkh",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "395260000"
+            }
+          ]
+        },
+        {
+          "address": "micro1jlgleh4r8xlx7ryhnz2e8d9726ks423z5juga7",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1nqynvt03xzkm2570av9evq0wayq5e9acjhh3qe",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1nvkrcfxezvst80clcqsyg2hl0x275e6hj2q8lv",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "484196391"
+            },
+            {
+              "denom": "utick",
+              "amount": "5669522014"
+            }
+          ]
+        },
+        {
+          "address": "micro15xslwqdxl4z9ts7zvmfnuc379uhn5w2zdhw0x6",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1881419794"
+            },
+            {
+              "denom": "utick",
+              "amount": "22991987056"
+            }
+          ]
+        },
+        {
+          "address": "micro15dtmqj60mnflf7j9cm8dhfuqysjnnzz76u96k6",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "343872919"
+            },
+            {
+              "denom": "utick",
+              "amount": "3866769949"
+            }
+          ]
+        },
+        {
+          "address": "micro15455zn5fp5ajwdqq8vqc0l3tj0qehvkk2q05pq",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "830040000"
+            }
+          ]
+        },
+        {
+          "address": "micro15k3f4846y8w4vzq9tjxv24cj7sqq6uwxg2j9hm",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2009175515"
+            },
+            {
+              "denom": "utick",
+              "amount": "23131671004"
+            }
+          ]
+        },
+        {
+          "address": "micro15urq2dtp9qce4fyc85m6upwm9xul3049wrrv6e",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1816923685"
+            },
+            {
+              "denom": "utick",
+              "amount": "22975790999"
+            }
+          ]
+        },
+        {
+          "address": "micro14qka30hsz3eq8dat40uu9d4642eqztxpyepa4d",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "3158647"
+            },
+            {
+              "denom": "utick",
+              "amount": "1062075075"
+            }
+          ]
+        },
+        {
+          "address": "micro148wnknz40m0mxwu99j77f88akuezq3cq27a5fh",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "10264181143"
+            },
+            {
+              "denom": "utick",
+              "amount": "115923883027"
+            }
+          ]
+        },
+        {
+          "address": "micro14g50yy9ahn7yqfk4d8cn40y8uplx4clhkkmg3p",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "332235676"
+            },
+            {
+              "denom": "utick",
+              "amount": "3835872583"
+            }
+          ]
+        },
+        {
+          "address": "micro14vq6ph0sc6ugnrmtngm0zay5tuphr43qhtpwah",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "671940000"
+            }
+          ]
+        },
+        {
+          "address": "micro14wylsscldldfjfgt6qnud0tvstlxkkeutacstu",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1935263621"
+            },
+            {
+              "denom": "utick",
+              "amount": "23084166608"
+            }
+          ]
+        },
+        {
+          "address": "micro140yj6y95p4zj3604rtcvjqjs0slvyu0cts2x2n",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "164635000000"
+            }
+          ]
+        },
+        {
+          "address": "micro140dw83yx8trpwpm04e67tjwulpjustgx9js0gl",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1734705277"
+            },
+            {
+              "denom": "utick",
+              "amount": "9321874"
+            }
+          ]
+        },
+        {
+          "address": "micro14nejmmv5ymsnrcxheu8pnyryefj509ep2zrvwf",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "725913379"
+            },
+            {
+              "denom": "utick",
+              "amount": "11404871311"
+            }
+          ]
+        },
+        {
+          "address": "micro14ku2u55ktxm885c60rd3a9n5tprpp7et7836q4",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro14ur4ls0naa9qawk0pv2x9943mksjl0m7kwx6kp",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "381376207"
+            },
+            {
+              "denom": "utick",
+              "amount": "21324237319"
+            }
+          ]
+        },
+        {
+          "address": "micro1k260t0jh0x6j0tn6q0ssnm9pe6l3n8npr99xre",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "48592238"
+            },
+            {
+              "denom": "utick",
+              "amount": "10395582043"
+            }
+          ]
+        },
+        {
+          "address": "micro1ktznmxdjuf4jy3u4vnwx5n7mgg4exlkl5x0h3a",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "955320"
+            },
+            {
+              "denom": "utick",
+              "amount": "5727746954"
+            }
+          ]
+        },
+        {
+          "address": "micro1k096qs0p8f7krajhhnk0zcz2s78u6r6hnujvkv",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "278928"
+            },
+            {
+              "denom": "utick",
+              "amount": "25000"
+            }
+          ]
+        },
+        {
+          "address": "micro1kh4c9m6ccr80d553mardk05htka2ld5d2xrlst",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1886932549"
+            },
+            {
+              "denom": "utick",
+              "amount": "22992126427"
+            }
+          ]
+        },
+        {
+          "address": "micro1kejfas76hmy7xehtj92w9h5kstgemvpg4ynywr",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "208738058"
+            },
+            {
+              "denom": "utick",
+              "amount": "5524809757"
+            }
+          ]
+        },
+        {
+          "address": "micro1ka94yj6fwhufuh8lnu4ttd3lye2xtx0l40pnwn",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "216841181"
+            },
+            {
+              "denom": "utick",
+              "amount": "5242671237"
+            }
+          ]
+        },
+        {
+          "address": "micro1hzyqt9rnxnhes7m65t6m8wnjz7us7sqzkgp5q8",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1805667927"
+            },
+            {
+              "denom": "utick",
+              "amount": "20888317842"
+            }
+          ]
+        },
+        {
+          "address": "micro1h6z4mhuzq2lljdgtsgmfnwryxp6whgwp9k62xy",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1980594645"
+            },
+            {
+              "denom": "utick",
+              "amount": "23090010709"
+            }
+          ]
+        },
+        {
+          "address": "micro1cp6k78z8c2467gts94ctkhe9ej2pv3xf63kxmf",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1501000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1cxzcu92mv92taejqqr66cxkh359swnzsjvfa4l",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "897186746"
+            },
+            {
+              "denom": "utick",
+              "amount": "21884245311"
+            }
+          ]
+        },
+        {
+          "address": "micro1cf3365zn4809hddfp5jghx8s805fnyrjaak762",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "276680000"
+            }
+          ]
+        },
+        {
+          "address": "micro1c0zsw6c2nmzl95e7gz7kess7echy66evu6w6jn",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "11789224405"
+            }
+          ]
+        },
+        {
+          "address": "micro1epmlgyve8nu6ag4xldnegj3gaqpa6tw7heqr3v",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "413500"
+            }
+          ]
+        },
+        {
+          "address": "micro1etrnq0eh6vux6pswdjf0pwjxne77uxs4ramjv4",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1919559332"
+            },
+            {
+              "denom": "utick",
+              "amount": "23155220825"
+            }
+          ]
+        },
+        {
+          "address": "micro1env95wrv2mmesvavgut68s5zx8xv98m8ng3cc2",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "8723731"
+            },
+            {
+              "denom": "utick",
+              "amount": "99892019"
+            }
+          ]
+        },
+        {
+          "address": "micro16zsjxyqnjuvktcvq89f0jc0fs3ghsxlg5gftx8",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "118580000"
+            }
+          ]
+        },
+        {
+          "address": "micro16x03wcp37kx5e8ehckjxvwcgk9j0cqnhpy4xtz",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "9249642"
+            },
+            {
+              "denom": "utick",
+              "amount": "210651752"
+            }
+          ]
+        },
+        {
+          "address": "micro16jgzynt3catzf67l2xyek3fkxgjdqqm869sp8a",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "3333000000"
+            }
+          ]
+        },
+        {
+          "address": "micro16cj080q8z32j8vjsrltmg5knysnckq8yzx439g",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1919509944"
+            },
+            {
+              "denom": "utick",
+              "amount": "23155175486"
+            }
+          ]
+        },
+        {
+          "address": "micro16awgdfgwj2e0a7x92vcdsjqhh8ceu6wfrlhfnc",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1455016809"
+            },
+            {
+              "denom": "utick",
+              "amount": "22857288909"
+            }
+          ]
+        },
+        {
+          "address": "micro1md2qat4zy6uy0r7y5y9y84h8zvu5tymyzp5zm6",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "323168918"
+            },
+            {
+              "denom": "utick",
+              "amount": "23216514166"
+            }
+          ]
+        },
+        {
+          "address": "micro1mn8r3x4g2nmwmvsqqh3tsnzxp54c7qwrlpwyjd",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "221983722"
+            },
+            {
+              "denom": "utick",
+              "amount": "5889668090"
+            }
+          ]
+        },
+        {
+          "address": "micro1mctr6fd6tr8nd8wcxy928qpe6l5v6g9vpywjxs",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1maya9lntfaqhgt5x52slaa2j03amqxctpgr7fa",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1upyjzuc65tr3gumy65x3py064gyxa43l5ml760",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "553360000"
+            }
+          ]
+        },
+        {
+          "address": "micro1u8dh5srz6zhg4jv2wkr3uxf8wnkuzf7nlce7gc",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "211831913"
+            },
+            {
+              "denom": "utick",
+              "amount": "5543326516"
+            }
+          ]
+        },
+        {
+          "address": "micro1ut2mlx5vs7z46594mfvjzfxkfhha0agwrjm2nx",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "1816131068"
+            },
+            {
+              "denom": "utick",
+              "amount": "8572744"
+            }
+          ]
+        },
+        {
+          "address": "micro1uwp86hhwwglgq0k506w8pdquxjs4j40z64h00s",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "10000"
+            }
+          ]
+        },
+        {
+          "address": "micro1u09me8dpc8khaxtdcd5gm0260qfcak66pk70xw",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "57917"
+            },
+            {
+              "denom": "utick",
+              "amount": "510981294"
+            }
+          ]
+        },
+        {
+          "address": "micro1u30zrncst2ywwm06zhrcwkk42p4kfq3xqrxwfw",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "4083961619"
+            }
+          ]
+        },
+        {
+          "address": "micro1ueu2mgmcqf2htwpdg7y49f82v25u2htrxymgsn",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2883311360"
+            },
+            {
+              "denom": "utick",
+              "amount": "217372"
+            }
+          ]
+        },
+        {
+          "address": "micro1ua70y594ptvlgde5p9pds284pz0taunzsuvqgz",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "3114962195"
+            },
+            {
+              "denom": "utick",
+              "amount": "19547722"
+            }
+          ]
+        },
+        {
+          "address": "micro1arq4nx59qhyspcyfr3kvfpllj86a47z5pkl3zh",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "1000000"
+            }
+          ]
+        },
+        {
+          "address": "micro1ahnfdmvsp5zqnzjh62eaf9a7d5eukcs3ytjf8s",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "2629549811"
+            },
+            {
+              "denom": "utick",
+              "amount": "18965542467"
+            }
+          ]
+        },
+        {
+          "address": "micro179egxffpytfglk25r764ejx5x7727qxgxayu82",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "50837845"
+            },
+            {
+              "denom": "utick",
+              "amount": "630000"
+            }
+          ]
+        },
+        {
+          "address": "micro173fgxal7ncashyz3vvcnghmszd2jhynsjty9wf",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "869570000"
+            }
+          ]
+        },
+        {
+          "address": "micro17lk0zagpl8uhn53pqv5whgpfhd3m6dkf9vu8a2",
+          "coins": [
+            {
+              "denom": "utick",
+              "amount": "157100000"
+            }
+          ]
+        },
+        {
+          "address": "micro1lwx7dpmly97cr8qknvccgjuuersu9rressxgex",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "20317251"
+            },
+            {
+              "denom": "utick",
+              "amount": "55000"
+            }
+          ]
+        },
+        {
+          "address": "micro1laxxv255mlcj3n94j8alu5p9snfe3p7shmjajc",
+          "coins": [
+            {
+              "denom": "udai",
+              "amount": "66637105"
+            },
+            {
+              "denom": "utick",
+              "amount": "180000"
+            }
+          ]
+        }
+      ],
+      "supply": [
+        {
+          "amount": "250000000000",
+          "denom": "udai"
+        },
+        {
+          "amount": "1184644554300",
+          "denom": "utick"
+        }
+      ],
+      "denom_metadata": []
+    },
+    "capability": {
+      "index": "1",
+      "owners": []
+    },
+    "crisis": {
+      "constant_fee": {
+        "denom": "utick",
+        "amount": "1000"
+      }
+    },
+    "distribution": {
+      "params": {
+        "community_tax": "0.020000000000000000",
+        "base_proposer_reward": "0.010000000000000000",
+        "bonus_proposer_reward": "0.040000000000000000",
+        "withdraw_addr_enabled": true
+      },
+      "fee_pool": {
+        "community_pool": [
+          {
+            "amount": "1435284342",
+            "denom": "udai"
+          },
+          {
+            "amount": "212288911542",
+            "denom": "utick"
+          }
+        ]
+      },
+      "delegator_withdraw_infos": [],
+      "previous_proposer": "",
+      "outstanding_rewards": [],
+      "validator_accumulated_commissions": [],
+      "validator_historical_rewards": [],
+      "validator_current_rewards": [],
+      "delegator_starting_infos": [],
+      "validator_slash_events": []
+    },
+    "evidence": {
+      "evidence": []
+    },
+    "genutil": {
+      "gen_txs": []
+    },
+    "gov": {
+      "starting_proposal_id": "8",
+      "deposits": [],
+      "votes": [],
+      "proposals": [],
+      "deposit_params": {
+        "min_deposit": [
+          {
+            "denom": "utick",
+            "amount": "10000000"
+          }
+        ],
+        "max_deposit_period": "172800s"
+      },
+      "voting_params": {
+        "voting_period": "604800s"
+      },
+      "tally_params": {
+        "quorum": "0.334000000000000000",
+        "threshold": "0.500000000000000000",
+        "veto_threshold": "0.334000000000000000"
+      }
+    },
+    "ibc": {
+      "client_genesis": {
+        "clients": [],
+        "clients_consensus": [],
+        "clients_metadata": [],
+        "params": {
+          "allowed_clients": [
+            "06-solomachine",
+            "07-tendermint"
+          ]
+        },
+        "create_localhost": false,
+        "next_client_sequence": "0"
+      },
+      "connection_genesis": {
+        "connections": [],
+        "client_connection_paths": [],
+        "next_connection_sequence": "0"
+      },
+      "channel_genesis": {
+        "channels": [],
+        "acknowledgements": [],
+        "commitments": [],
+        "receipts": [],
+        "send_sequences": [],
+        "recv_sequences": [],
+        "ack_sequences": [],
+        "next_channel_sequence": "0"
+      }
+    },
+    "microtick": {
+      "params": {
+        "european_options": true,
+        "commission_create_perunit": "0.000400000000000000",
+        "commission_trade_fixed": "0.025000000000000000",
+        "commission_update_perunit": "0.000050000000000000",
+        "commission_settle_fixed": "0.010000000000000000",
+        "commission_cancel_perunit": "0.000100000000000000",
+        "settle_incentive": "0.025000000000000000",
+        "freeze_time": 30,
+        "mint_denom": "utick",
+        "mint_reward_create_perunit": "200.000000000000000000",
+        "mint_reward_update_perunit": "25.000000000000000000",
+        "mint_reward_trade_fixed": "0.000000000000000000",
+        "mint_reward_settle_fixed": "0.000000000000000000",
+        "cancel_slash_rate": "0.010000000000000000",
+        "backing_denom": "udai",
+        "backing_ratio": "1000000"
+      },
+      "accounts": [
+        {
+          "account": "micro1367nle2jgtwyctc2unqaz7dac42terzr92vemj",
+          "placed_quotes": 0,
+          "placed_trades": 384
+        },
+        {
+          "account": "micro13gjhk3pmmusvdrsgqwdc74fcafdmvex0dksn7x",
+          "placed_quotes": 4,
+          "placed_trades": 1
+        },
+        {
+          "account": "micro140dw83yx8trpwpm04e67tjwulpjustgx9js0gl",
+          "placed_quotes": 16,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro179egxffpytfglk25r764ejx5x7727qxgxayu82",
+          "placed_quotes": 29,
+          "placed_trades": 6
+        },
+        {
+          "account": "micro1980k5jmex6dmlxq0p4568m8ccela9uuyg4qy99",
+          "placed_quotes": 7,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro198c8z5m8hqtv4vunn3dj222et8la7ll8gxda6s",
+          "placed_quotes": 0,
+          "placed_trades": 1
+        },
+        {
+          "account": "micro1epmlgyve8nu6ag4xldnegj3gaqpa6tw7heqr3v",
+          "placed_quotes": 16,
+          "placed_trades": 10
+        },
+        {
+          "account": "micro1ghekpz7dzf6lcg2ujct7567h2ne0p7yx93l5td",
+          "placed_quotes": 5,
+          "placed_trades": 4
+        },
+        {
+          "account": "micro1gz2hhsmdarfrjsv4a39hrqt3phece5spxrevlf",
+          "placed_quotes": 2,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1j557mplgram34qwh665x64cfw67sa5qrs50jsg",
+          "placed_quotes": 444467,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1jgj48zzwh5vl4ckx3a8d3cacxu9ul9f07u2wdd",
+          "placed_quotes": 220,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1k096qs0p8f7krajhhnk0zcz2s78u6r6hnujvkv",
+          "placed_quotes": 0,
+          "placed_trades": 1
+        },
+        {
+          "account": "micro1laxxv255mlcj3n94j8alu5p9snfe3p7shmjajc",
+          "placed_quotes": 1,
+          "placed_trades": 7
+        },
+        {
+          "account": "micro1lwx7dpmly97cr8qknvccgjuuersu9rressxgex",
+          "placed_quotes": 1,
+          "placed_trades": 2
+        },
+        {
+          "account": "micro1t5d79xekdh2e2r7m5krewje5rkpvl290egad6q",
+          "placed_quotes": 1,
+          "placed_trades": 288
+        },
+        {
+          "account": "micro1try3a8k6f0hc6dlxe0hpuq4w5jddx3s9l00ylm",
+          "placed_quotes": 1,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1u30zrncst2ywwm06zhrcwkk42p4kfq3xqrxwfw",
+          "placed_quotes": 296,
+          "placed_trades": 229
+        },
+        {
+          "account": "micro1ua70y594ptvlgde5p9pds284pz0taunzsuvqgz",
+          "placed_quotes": 368,
+          "placed_trades": 280
+        },
+        {
+          "account": "micro1ueu2mgmcqf2htwpdg7y49f82v25u2htrxymgsn",
+          "placed_quotes": 781,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1ut2mlx5vs7z46594mfvjzfxkfhha0agwrjm2nx",
+          "placed_quotes": 77,
+          "placed_trades": 12
+        },
+        {
+          "account": "micro1vs6qzfldgmjc7hhemm26lyawu2n5gpwmuwu023",
+          "placed_quotes": 361381,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1wjzzkdp4sae9utdys7fc849ezednvczrw6msuf",
+          "placed_quotes": 50,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1xs2859dsxhlpyfzqdd7pnakl23qn0mgck3rprc",
+          "placed_quotes": 8,
+          "placed_trades": 0
+        },
+        {
+          "account": "micro1yn79us5tg4fu3amtfq99ppda39yxqyzkhc7jpd",
+          "placed_quotes": 1,
+          "placed_trades": 11
+        },
+        {
+          "account": "micro1zszf8stwsz89fcguk77cer3xe00u5wtne9dy2x",
+          "placed_quotes": 2,
+          "placed_trades": 1
+        }
+      ],
+      "markets": [
+        {
+          "description": "Crypto - Cardano",
+          "name": "ADAUSD"
+        },
+        {
+          "description": "Crypto - Algorand",
+          "name": "ALGOUSD"
+        },
+        {
+          "description": "Crypto - Atom",
+          "name": "ATOMUSD"
+        },
+        {
+          "description": "Crypto - Avalanche",
+          "name": "AVAXUSD"
+        },
+        {
+          "description": "Crypto - Polkadot",
+          "name": "DOTUSD"
+        },
+        {
+          "description": "Commodity - Ethereum Gas Price",
+          "name": "ETHGAS"
+        },
+        {
+          "description": "Crypto - Ethereum",
+          "name": "ETHUSD"
+        },
+        {
+          "description": "Crypto - Chainlink",
+          "name": "LINKUSD"
+        },
+        {
+          "description": "Crypto - Bitcoin",
+          "name": "XBTUSD"
+        },
+        {
+          "description": "Crypto - Tezos",
+          "name": "XTZUSD"
+        }
+      ],
+      "durations": [
+        {
+          "name": "12hour",
+          "seconds": 43200
+        },
+        {
+          "name": "15minute",
+          "seconds": 900
+        },
+        {
+          "name": "1hour",
+          "seconds": 3600
+        },
+        {
+          "name": "4hour",
+          "seconds": 14400
+        },
+        {
+          "name": "5minute",
+          "seconds": 300
+        }
+      ]
+    },
+    "mint": {
+      "minter": {
+        "annual_provisions": "149974336269.443819933806416638",
+        "inflation": "0.126598597641106042"
+      },
+      "params": {
+        "mint_denom": "utick",
+        "inflation_rate_change": "0.130000000000000000",
+        "inflation_max": "0.200000000000000000",
+        "inflation_min": "0.070000000000000000",
+        "goal_bonded": "0.670000000000000000",
+        "blocks_per_year": "6311520"
+      }
+    },
+    "params": null,
+    "slashing": {
+      "params": {
+        "signed_blocks_window": "100",
+        "min_signed_per_window": "0.500000000000000000",
+        "downtime_jail_duration": "600s",
+        "slash_fraction_double_sign": "0.050000000000000000",
+        "slash_fraction_downtime": "0.010000000000000000"
+      },
+      "signing_infos": [],
+      "missed_blocks": []
+    },
+    "staking": {
+      "params": {
+        "unbonding_time": "1814400s",
+        "max_validators": 100,
+        "max_entries": 7,
+        "historical_entries": 10000,
+        "bond_denom": "utick"
+      },
+      "last_total_power": "0",
+      "last_validator_powers": [],
+      "validators": [],
+      "delegations": [],
+      "unbonding_delegations": [],
+      "redelegations": [],
+      "exported": false
+    },
+    "transfer": {
+      "port_id": "transfer",
+      "denom_traces": [],
+      "params": {
+        "send_enabled": true,
+        "receive_enabled": true
+      }
+    },
+    "upgrade": {},
+    "vesting": {}
+  }
+}
