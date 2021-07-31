@@ -1,1 +1,3 @@
 # List of community seed nodes
+
+e8466c961788f68803d873c28b6a0f843b36ba3e@45.79.207.112:26656
