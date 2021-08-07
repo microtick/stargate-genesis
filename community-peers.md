@@ -9,3 +9,4 @@
 #### To be used as "persistent_peers" inside config.toml
 - ccb33eecbd843d96976d17bcac6e37faa25cf6eb@144.91.127.3:26656
 - 16d0b9dfff57dc8942db8d01749a9e8ae255f73c@167.86.106.41:26656
+- f1b27c43f32b68710de06d8e0fb13e7c9cc21ed2@168.119.231.242:26656
