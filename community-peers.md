@@ -14,5 +14,5 @@
 - 6ee111b220f07b13d3f48945b2a320b138f02d57@135.181.138.161:13656
 
 # List of StateSync RPC-Servers (1000 blocks - 10 snapshoots configured at app.toml)
-- (microtick-statesync-1) 104.237.158.143:26657 - e800651612bb546c1c71d338e963ebdede65758e@104.237.158.143:26657
+- (microtick-statesync-1) 104.237.158.143 - e800651612bb546c1c71d338e963ebdede65758e@104.237.158.143:26657
 - (microtick-statesync-2) 45.56.73.136 - 30f14ac9cadde0742dfef21420f12477f5dd76cb@45.56.73.136:26657
