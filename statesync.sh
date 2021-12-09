@@ -1,28 +1,33 @@
 #!/bin/bash
 set -e
 
-if [[ "$#" -ne 1 ]]; then
-    BASE=$(basename $0)
-    echo "Usage: $BASE: <moniker>"
-    exit 1
-fi
-MONIKER=$1
-
-if [ -e $HOME/.microtick ]; then
-    echo "$HOME/.microtick exists: remove or back it up first"
-    exit 1
-fi
+BACKUP_DIR=$HOME/.microtick.backup
+DATE_BACKUP=`date +"%d_%m_%Y-%H_%M_%S"`
 
 # Test if mtm is in path
 mtm --help > /dev/null 2>&1
 MTM_RESULT=$?
 if [ $MTM_RESULT -ne 0 ]; then
-    echo "mtm: not found"
+    echo "mtm: executable not found, please download the latest from here: https://microtick.com/releases/mainnet/"
     exit 1
 fi
 
-mtm init $MONIKER > /dev/null 2>&1
-cp ./genesis.json $HOME/.microtick/config
+if [ -d $HOME/.microtick ]; then
+    echo "$HOME/.microtick exists: backing it up first"
+    mkdir -p $BACKUP_DIR
+    tar cvfz $BACKUP_DIR/microtick_folder_backup_$DATE_BACKUP.tgz -C $HOME/.microtick --exclude="./data/cs.wal" --exclude="./data/application.db" --exclude="./data/blockstore.db" --exclude="./data/evidence.db" --exclude="./data/snapshots" --exclude="./data/state.db" --exclude="./data/tx_index.db" .
+    mtm unsafe-reset-all
+else
+    if [[ "$#" -ne 1 ]]; then
+        BASE=$(basename $0)
+        echo "When starting a node for the first time, you should choose a moniker"
+	echo "usage: $BASE: <moniker>"
+        exit 1
+    fi
+    MONIKER=$1
+    mtm init $MONIKER > /dev/null 2>&1
+    cp ./genesis.json $HOME/.microtick/config
+fi
 
 # get trust height
 INTERVAL=1000
@@ -40,4 +45,6 @@ s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$TRUST_HEIGHT| ; \
 s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"| ; \
 s|^(seeds[[:space:]]+=[[:space:]]+).*$|\1\"e8466c961788f68803d873c28b6a0f843b36ba3e@45.79.207.112:26656,885cc6b8bcc36d9fd0489f4bfa2d845c9b60f354@5.189.132.164:26656,f1b27c43f32b68710de06d8e0fb13e7c9cc21ed2@168.119.231.242:26656\"|" $HOME/.microtick/config/config.toml
 
-mtm start
+echo 
+echo "Setup complete"
+echo "Next, run 'mtm start' from the command line, or configure a systemd service to do it."
