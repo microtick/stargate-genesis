@@ -13,9 +13,11 @@ if [ $MTM_RESULT -ne 0 ]; then
 fi
 
 if [ -d $HOME/.microtick ]; then
-    echo "$HOME/.microtick exists: backing it up first"
+    echo "Backing up $HOME/.microtick because it already exists"
+    echo "Backup will be here: $BACKUP_DIR"
     mkdir -p $BACKUP_DIR
     tar cvfz $BACKUP_DIR/microtick_folder_backup_$DATE_BACKUP.tgz -C $HOME/.microtick --exclude="./data/cs.wal" --exclude="./data/application.db" --exclude="./data/blockstore.db" --exclude="./data/evidence.db" --exclude="./data/snapshots" --exclude="./data/state.db" --exclude="./data/tx_index.db" .
+    echo
     mtm unsafe-reset-all
 else
     if [[ "$#" -ne 1 ]]; then
@@ -33,6 +35,7 @@ fi
 INTERVAL=1000
 LATEST_HEIGHT=$(curl -s "http://45.79.207.112:26657/block" | jq -r .result.block.header.height)
 TRUST_HEIGHT=$(($(($LATEST_HEIGHT / $INTERVAL)) * $INTERVAL))
+echo
 echo TRUST_HEIGHT=$TRUST_HEIGHT
 
 # get trust hash
